@@ -36,20 +36,40 @@ let balance = 5000
 // .replace() is used to replace just one value.
 
 
-let fullName = console.log(userName.slice(0 , 2)); //  This is used to take a slice out from string , It doesn't include the lend value
-fullName = console.log(userName.split('' ,4)); //  This is used to Split the string and returns into a new string as in array form.
+// let fullName = console.log(userName.slice(0 , 2)); //  This is used to take a slice out from string , It doesn't include the lend value
+// fullName = console.log(userName.split('' ,4)); //  This is used to Split the string and returns into a new string as in array form.
 
-console.log(userName.startsWith('A'));   // It is used to check the starting of value is matching the search valur or not , return boolean value
+// console.log(userName.startsWith('A'));   // It is used to check the starting of value is matching the search valur or not , return boolean value
 
-console.log(userName.toLocaleUpperCase()); // This is used for converting string into uppercase same goes for lowercase
-console.log(userName.toLocaleLowerCase()); // Transform text into lowercase
+// console.log(userName.toLocaleUpperCase()); // This is used for converting string into uppercase same goes for lowercase
+// console.log(userName.toLocaleLowerCase()); // Transform text into lowercase
 
 
-console.log(lastName.trim()); 
+// console.log(lastName.trim()); 
 // Trim whitespaces fom start and end.   Have simliar properties like trimstart() it only trim whitespaces from starting , trimend() trim whitespaces from end.
 
-console.log(userName.valueOf());  //Return the value of the specified object.
+// console.log(userName.valueOf());  //Return the value of the specified object.
 
+
+// Data conversion 
+
+let value = "45"
+
+// console.log(typeof value)
+let stringValue  = Number(value)
+
+// console.log(typeof stringValue)
+
+// The number conversion is als work on boolean value like true will convert to 1 and false will convert to 0
+
+
+let numValue = true
+
+let convertion = Boolean(numValue)
+
+console.log(typeof convertion)
+
+// This is how we do conversion . Conversion can be sometimes confusing so we have to be carefull about outcomes
 
 
 
